@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rafii</title>
+    <link rel="stylesheet" href="./src/css/global.css" />
+	<link rel="icon" href="./src/image/profile.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body id="body">
+    <nav>
+      <div class="box">
+        <h1>rafii.dev</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-github"></i>
+        <button class="dark-toggle" id="dark">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+          <span onclick="changeText();" id="text">Dark</span>
+        </button>
+        <i class="fa-solid fa-bars" id="navbtn"></i>
+      </div>
+    </nav>
+    <section>
+      <div class="hero">
+        <div class="box">
+          <small>Hi, I am Ahmad Rafi'i 👋🏻</small>
+          <h1>
+            Full Stack <br />
+            Web <span>Devoloper</span>
+          </h1>
+          <p>
+            Hi, saya adalah seorang <span>Full Stack Web Devoloper</span>, saya
+            adalah
+            <br />
+            seorang siswa dari SMK 6 Malang, saya sangat suka hal yang berbau
+            <br />
+            teknologi seperti <span>programming</span>, saya juga memiliki
+            keahlian di bidang
+            <br />
+            <span>UI/UX Design.</span>
+          </p>
+          <div class="btn">
+            <button>Resume <i class="fa-solid fa-arrow-right"></i></button>
+            <button>Contact</button>
+          </div>
+        </div>
+        <div class="img">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-discord"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-stack-overflow"></i>
+          <i class="fa-brands fa-docker"></i>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="about">
+        <div class="img">
+          <img src="./src/image/profile.png" alt="" />
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-discord"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-stack-overflow"></i>
+          <i class="fa-brands fa-docker"></i>
+        </div>
+        <div class="box">
+          <h1>Ahmad Rafi'i</h1>
+          <small>Full Stack Web Devoloper</small>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            <br />
+            impedit necessitatibus, ipsa totam beatae laborum? Deleniti
+            <br />
+            reiciendis neque voluptas odio?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            <br />
+            impedit necessitatibus, ipsa totam beatae laborum? Deleniti
+            <br />
+            reiciendis neque voluptas odio?
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./src/js/index.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
